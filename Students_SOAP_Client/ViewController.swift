@@ -13,6 +13,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        var service = GSPStudentWebServiceSoapBinding(url:"http://0.0.0.0:8080/student")
+        var  error:Error?
+        var smt = try? service.getAllStudent(__error: &error)
+        try print(smt!![0]?.firstName)
+            
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

@@ -14,6 +14,30 @@
 		2895DAEB20C28AF6009C976D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2895DAE920C28AF6009C976D /* LaunchScreen.storyboard */; };
 		2895DAF620C28AF7009C976D /* Students_SOAP_ClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2895DAF520C28AF7009C976D /* Students_SOAP_ClientTests.swift */; };
 		2895DB0120C28AF7009C976D /* Students_SOAP_ClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2895DB0020C28AF7009C976D /* Students_SOAP_ClientUITests.swift */; };
+		28F6BC2820C2946A000EBA84 /* Index.html in Resources */ = {isa = PBXBuildFile; fileRef = 28F6BC0420C2946A000EBA84 /* Index.html */; };
+		28F6BC2920C2946A000EBA84 /* MTOMTransfer.html in Resources */ = {isa = PBXBuildFile; fileRef = 28F6BC0620C2946A000EBA84 /* MTOMTransfer.html */; };
+		28F6BC2A20C2946A000EBA84 /* GSPStudentWebServiceSoapBinding.html in Resources */ = {isa = PBXBuildFile; fileRef = 28F6BC0720C2946A000EBA84 /* GSPStudentWebServiceSoapBinding.html */; };
+		28F6BC2B20C2946A000EBA84 /* GSPStudentWebServiceSoapBinding_methods.html in Resources */ = {isa = PBXBuildFile; fileRef = 28F6BC0820C2946A000EBA84 /* GSPStudentWebServiceSoapBinding_methods.html */; };
+		28F6BC2C20C2946A000EBA84 /* Tips.html in Resources */ = {isa = PBXBuildFile; fileRef = 28F6BC0A20C2946A000EBA84 /* Tips.html */; };
+		28F6BC2D20C2946A000EBA84 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 28F6BC0D20C2946A000EBA84 /* Style.css */; };
+		28F6BC2E20C2946A000EBA84 /* DDXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC1120C2946A000EBA84 /* DDXMLElement.m */; };
+		28F6BC2F20C2946A000EBA84 /* DDXMLElementAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC1520C2946A000EBA84 /* DDXMLElementAdditions.m */; };
+		28F6BC3020C2946A000EBA84 /* DDXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC1620C2946A000EBA84 /* DDXMLNode.m */; };
+		28F6BC3120C2946A000EBA84 /* DDXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC1720C2946A000EBA84 /* DDXMLDocument.m */; };
+		28F6BC3220C2946A000EBA84 /* NSString+DDXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC1D20C2946A000EBA84 /* NSString+DDXML.m */; };
+		28F6BC3320C2946A000EBA84 /* DDXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC1E20C2946A000EBA84 /* DDXML.swift */; };
+		28F6BC3420C2946A000EBA84 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 28F6BC2020C2946A000EBA84 /* ReadMe.txt */; };
+		28F6BC3520C2946A000EBA84 /* GSPRequestResultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC2220C2946A000EBA84 /* GSPRequestResultHandler.swift */; };
+		28F6BC3620C2946A000EBA84 /* GSPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC2320C2946A000EBA84 /* GSPHelper.swift */; };
+		28F6BC3720C2946A000EBA84 /* GSPStudentWebServiceSoapBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC2420C2946A000EBA84 /* GSPStudentWebServiceSoapBinding.swift */; };
+		28F6BC3820C2946A000EBA84 /* GSPstudentXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC2520C2946A000EBA84 /* GSPstudentXML.swift */; };
+		28F6BC3920C2946A000EBA84 /* GSPSoapError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC2620C2946A000EBA84 /* GSPSoapError.swift */; };
+		28F6BC3A20C2946A000EBA84 /* GSPstudentGroupXML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC2720C2946A000EBA84 /* GSPstudentGroupXML.swift */; };
+		28F6BC3D20C29D6D000EBA84 /* GSPgetAllStudentResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC3B20C29D6D000EBA84 /* GSPgetAllStudentResponse.swift */; };
+		28F6BC3E20C29D6D000EBA84 /* GSPgetAllStudentGroupResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC3C20C29D6D000EBA84 /* GSPgetAllStudentGroupResponse.swift */; };
+		28F6BC4020C2A922000EBA84 /* PersonsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC3F20C2A922000EBA84 /* PersonsTableViewController.swift */; };
+		28F6BC4220C2AD2B000EBA84 /* PersonsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC4120C2AD2B000EBA84 /* PersonsTableViewCell.swift */; };
+		28F6BC4420C2C1B1000EBA84 /* PersonAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F6BC4320C2C1B1000EBA84 /* PersonAddViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +71,40 @@
 		2895DAFC20C28AF7009C976D /* Students_SOAP_ClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Students_SOAP_ClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2895DB0020C28AF7009C976D /* Students_SOAP_ClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Students_SOAP_ClientUITests.swift; sourceTree = "<group>"; };
 		2895DB0220C28AF7009C976D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F6BC0220C2946A000EBA84 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		28F6BC0420C2946A000EBA84 /* Index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Index.html; sourceTree = "<group>"; };
+		28F6BC0620C2946A000EBA84 /* MTOMTransfer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = MTOMTransfer.html; sourceTree = "<group>"; };
+		28F6BC0720C2946A000EBA84 /* GSPStudentWebServiceSoapBinding.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GSPStudentWebServiceSoapBinding.html; sourceTree = "<group>"; };
+		28F6BC0820C2946A000EBA84 /* GSPStudentWebServiceSoapBinding_methods.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = GSPStudentWebServiceSoapBinding_methods.html; sourceTree = "<group>"; };
+		28F6BC0920C2946A000EBA84 /* GSPEasyWSDLBridging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSPEasyWSDLBridging.h; sourceTree = "<group>"; };
+		28F6BC0A20C2946A000EBA84 /* Tips.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Tips.html; sourceTree = "<group>"; };
+		28F6BC0D20C2946A000EBA84 /* Style.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		28F6BC0F20C2946A000EBA84 /* DDXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLDocument.h; sourceTree = "<group>"; };
+		28F6BC1020C2946A000EBA84 /* DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXML.h; sourceTree = "<group>"; };
+		28F6BC1120C2946A000EBA84 /* DDXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElement.m; sourceTree = "<group>"; };
+		28F6BC1220C2946A000EBA84 /* KissXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KissXML.h; sourceTree = "<group>"; };
+		28F6BC1420C2946A000EBA84 /* DDXMLElementAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElementAdditions.h; sourceTree = "<group>"; };
+		28F6BC1520C2946A000EBA84 /* DDXMLElementAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLElementAdditions.m; sourceTree = "<group>"; };
+		28F6BC1620C2946A000EBA84 /* DDXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLNode.m; sourceTree = "<group>"; };
+		28F6BC1720C2946A000EBA84 /* DDXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDXMLDocument.m; sourceTree = "<group>"; };
+		28F6BC1920C2946A000EBA84 /* DDXMLPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLPrivate.h; sourceTree = "<group>"; };
+		28F6BC1A20C2946A000EBA84 /* DDXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLElement.h; sourceTree = "<group>"; };
+		28F6BC1C20C2946A000EBA84 /* NSString+DDXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DDXML.h"; sourceTree = "<group>"; };
+		28F6BC1D20C2946A000EBA84 /* NSString+DDXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DDXML.m"; sourceTree = "<group>"; };
+		28F6BC1E20C2946A000EBA84 /* DDXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDXML.swift; sourceTree = "<group>"; };
+		28F6BC1F20C2946A000EBA84 /* DDXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDXMLNode.h; sourceTree = "<group>"; };
+		28F6BC2020C2946A000EBA84 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		28F6BC2220C2946A000EBA84 /* GSPRequestResultHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSPRequestResultHandler.swift; sourceTree = "<group>"; };
+		28F6BC2320C2946A000EBA84 /* GSPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSPHelper.swift; sourceTree = "<group>"; };
+		28F6BC2420C2946A000EBA84 /* GSPStudentWebServiceSoapBinding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSPStudentWebServiceSoapBinding.swift; sourceTree = "<group>"; };
+		28F6BC2520C2946A000EBA84 /* GSPstudentXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSPstudentXML.swift; sourceTree = "<group>"; };
+		28F6BC2620C2946A000EBA84 /* GSPSoapError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSPSoapError.swift; sourceTree = "<group>"; };
+		28F6BC2720C2946A000EBA84 /* GSPstudentGroupXML.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSPstudentGroupXML.swift; sourceTree = "<group>"; };
+		28F6BC3B20C29D6D000EBA84 /* GSPgetAllStudentResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSPgetAllStudentResponse.swift; sourceTree = "<group>"; };
+		28F6BC3C20C29D6D000EBA84 /* GSPgetAllStudentGroupResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GSPgetAllStudentGroupResponse.swift; sourceTree = "<group>"; };
+		28F6BC3F20C2A922000EBA84 /* PersonsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsTableViewController.swift; sourceTree = "<group>"; };
+		28F6BC4120C2AD2B000EBA84 /* PersonsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsTableViewCell.swift; sourceTree = "<group>"; };
+		28F6BC4320C2C1B1000EBA84 /* PersonAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonAddViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +155,16 @@
 		2895DADF20C28AF5009C976D /* Students_SOAP_Client */ = {
 			isa = PBXGroup;
 			children = (
+				28F6BC0120C2946A000EBA84 /* SoapClientGenerator */,
 				2895DAE020C28AF5009C976D /* AppDelegate.swift */,
 				2895DAE220C28AF5009C976D /* ViewController.swift */,
 				2895DAE420C28AF5009C976D /* Main.storyboard */,
 				2895DAE720C28AF6009C976D /* Assets.xcassets */,
 				2895DAE920C28AF6009C976D /* LaunchScreen.storyboard */,
 				2895DAEC20C28AF6009C976D /* Info.plist */,
+				28F6BC3F20C2A922000EBA84 /* PersonsTableViewController.swift */,
+				28F6BC4120C2AD2B000EBA84 /* PersonsTableViewCell.swift */,
+				28F6BC4320C2C1B1000EBA84 /* PersonAddViewController.swift */,
 			);
 			path = Students_SOAP_Client;
 			sourceTree = "<group>";
@@ -123,6 +185,116 @@
 				2895DB0220C28AF7009C976D /* Info.plist */,
 			);
 			path = Students_SOAP_ClientUITests;
+			sourceTree = "<group>";
+		};
+		28F6BC0120C2946A000EBA84 /* SoapClientGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				28F6BC0220C2946A000EBA84 /* Header.h */,
+				28F6BC0320C2946A000EBA84 /* docs */,
+				28F6BC0E20C2946A000EBA84 /* KissXML */,
+				28F6BC2020C2946A000EBA84 /* ReadMe.txt */,
+				28F6BC2120C2946A000EBA84 /* src */,
+			);
+			path = SoapClientGenerator;
+			sourceTree = "<group>";
+		};
+		28F6BC0320C2946A000EBA84 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				28F6BC0420C2946A000EBA84 /* Index.html */,
+				28F6BC0520C2946A000EBA84 /* Html */,
+				28F6BC0B20C2946A000EBA84 /* Styles */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		28F6BC0520C2946A000EBA84 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				28F6BC0620C2946A000EBA84 /* MTOMTransfer.html */,
+				28F6BC0720C2946A000EBA84 /* GSPStudentWebServiceSoapBinding.html */,
+				28F6BC0820C2946A000EBA84 /* GSPStudentWebServiceSoapBinding_methods.html */,
+				28F6BC0920C2946A000EBA84 /* GSPEasyWSDLBridging.h */,
+				28F6BC0A20C2946A000EBA84 /* Tips.html */,
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
+		28F6BC0B20C2946A000EBA84 /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				28F6BC0C20C2946A000EBA84 /* Blueprint_Styles */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		28F6BC0C20C2946A000EBA84 /* Blueprint_Styles */ = {
+			isa = PBXGroup;
+			children = (
+				28F6BC0D20C2946A000EBA84 /* Style.css */,
+			);
+			path = Blueprint_Styles;
+			sourceTree = "<group>";
+		};
+		28F6BC0E20C2946A000EBA84 /* KissXML */ = {
+			isa = PBXGroup;
+			children = (
+				28F6BC0F20C2946A000EBA84 /* DDXMLDocument.h */,
+				28F6BC1020C2946A000EBA84 /* DDXML.h */,
+				28F6BC1120C2946A000EBA84 /* DDXMLElement.m */,
+				28F6BC1220C2946A000EBA84 /* KissXML.h */,
+				28F6BC1320C2946A000EBA84 /* Additions */,
+				28F6BC1620C2946A000EBA84 /* DDXMLNode.m */,
+				28F6BC1720C2946A000EBA84 /* DDXMLDocument.m */,
+				28F6BC1820C2946A000EBA84 /* Private */,
+				28F6BC1A20C2946A000EBA84 /* DDXMLElement.h */,
+				28F6BC1B20C2946A000EBA84 /* Categories */,
+				28F6BC1E20C2946A000EBA84 /* DDXML.swift */,
+				28F6BC1F20C2946A000EBA84 /* DDXMLNode.h */,
+			);
+			path = KissXML;
+			sourceTree = "<group>";
+		};
+		28F6BC1320C2946A000EBA84 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+				28F6BC1420C2946A000EBA84 /* DDXMLElementAdditions.h */,
+				28F6BC1520C2946A000EBA84 /* DDXMLElementAdditions.m */,
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		28F6BC1820C2946A000EBA84 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				28F6BC1920C2946A000EBA84 /* DDXMLPrivate.h */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		28F6BC1B20C2946A000EBA84 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				28F6BC1C20C2946A000EBA84 /* NSString+DDXML.h */,
+				28F6BC1D20C2946A000EBA84 /* NSString+DDXML.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		28F6BC2120C2946A000EBA84 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				28F6BC2220C2946A000EBA84 /* GSPRequestResultHandler.swift */,
+				28F6BC2320C2946A000EBA84 /* GSPHelper.swift */,
+				28F6BC2420C2946A000EBA84 /* GSPStudentWebServiceSoapBinding.swift */,
+				28F6BC3C20C29D6D000EBA84 /* GSPgetAllStudentGroupResponse.swift */,
+				28F6BC3B20C29D6D000EBA84 /* GSPgetAllStudentResponse.swift */,
+				28F6BC2520C2946A000EBA84 /* GSPstudentXML.swift */,
+				28F6BC2620C2946A000EBA84 /* GSPSoapError.swift */,
+				28F6BC2720C2946A000EBA84 /* GSPstudentGroupXML.swift */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +402,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				2895DAEB20C28AF6009C976D /* LaunchScreen.storyboard in Resources */,
+				28F6BC2820C2946A000EBA84 /* Index.html in Resources */,
 				2895DAE820C28AF6009C976D /* Assets.xcassets in Resources */,
+				28F6BC2A20C2946A000EBA84 /* GSPStudentWebServiceSoapBinding.html in Resources */,
+				28F6BC2C20C2946A000EBA84 /* Tips.html in Resources */,
 				2895DAE620C28AF5009C976D /* Main.storyboard in Resources */,
+				28F6BC2920C2946A000EBA84 /* MTOMTransfer.html in Resources */,
+				28F6BC2B20C2946A000EBA84 /* GSPStudentWebServiceSoapBinding_methods.html in Resources */,
+				28F6BC3420C2946A000EBA84 /* ReadMe.txt in Resources */,
+				28F6BC2D20C2946A000EBA84 /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +435,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F6BC3920C2946A000EBA84 /* GSPSoapError.swift in Sources */,
+				28F6BC3620C2946A000EBA84 /* GSPHelper.swift in Sources */,
+				28F6BC2F20C2946A000EBA84 /* DDXMLElementAdditions.m in Sources */,
+				28F6BC3020C2946A000EBA84 /* DDXMLNode.m in Sources */,
+				28F6BC3E20C29D6D000EBA84 /* GSPgetAllStudentGroupResponse.swift in Sources */,
 				2895DAE320C28AF5009C976D /* ViewController.swift in Sources */,
 				2895DAE120C28AF5009C976D /* AppDelegate.swift in Sources */,
+				28F6BC3120C2946A000EBA84 /* DDXMLDocument.m in Sources */,
+				28F6BC2E20C2946A000EBA84 /* DDXMLElement.m in Sources */,
+				28F6BC3A20C2946A000EBA84 /* GSPstudentGroupXML.swift in Sources */,
+				28F6BC4220C2AD2B000EBA84 /* PersonsTableViewCell.swift in Sources */,
+				28F6BC3720C2946A000EBA84 /* GSPStudentWebServiceSoapBinding.swift in Sources */,
+				28F6BC3820C2946A000EBA84 /* GSPstudentXML.swift in Sources */,
+				28F6BC3D20C29D6D000EBA84 /* GSPgetAllStudentResponse.swift in Sources */,
+				28F6BC3220C2946A000EBA84 /* NSString+DDXML.m in Sources */,
+				28F6BC3520C2946A000EBA84 /* GSPRequestResultHandler.swift in Sources */,
+				28F6BC4420C2C1B1000EBA84 /* PersonAddViewController.swift in Sources */,
+				28F6BC3320C2946A000EBA84 /* DDXML.swift in Sources */,
+				28F6BC4020C2A922000EBA84 /* PersonsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,13 +628,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7BKMVT4A2;
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
 				INFOPLIST_FILE = Students_SOAP_Client/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				"OTHER_LDFLAGS[arch=*]" = "-lxml2";
 				PRODUCT_BUNDLE_IDENTIFIER = "student.Students-SOAP-Client";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = Students_SOAP_Client/SoapClientGenerator/Header.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
